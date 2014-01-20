@@ -1,0 +1,18 @@
+ul li{
+    list-style: none;
+    display: inline;
+    margin:inherit;
+}
+
+form {
+    float: left;
+    border:1px solid black;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+form#login {
+    float: left;
+    clear: right;
+    margin-right: 5px;
+}
+

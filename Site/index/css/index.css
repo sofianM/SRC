@@ -1,7 +1,31 @@
-ul li{
-    list-style: none;
-    display: inline;
-    margin:inherit;
+nav {
+    float: left;
+    width: 20%;
+    min-width: 140px;
+    position: fixed;
+}
+
+nav ul {
+    background-color: white;
+    border: 1px solid grey;
+    list-style-type: none;
+    padding: 0
+}
+
+nav ul li {
+    background-color: grey;
+    margin: 2px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 3px;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: darkblue;
 }
 
 form {
